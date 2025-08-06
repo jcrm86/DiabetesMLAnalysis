@@ -39,10 +39,10 @@ Because this is a classification problem three models were considered.
 - Rigde regression
 - Decision trees
 
-## HYPERPARAMETER OPTIMSATION
+## HYPERPARAMETER OPTIMISATION
 Different techiniques were studied:
 - Grid Search selection for K-nearest neighbors.
 
 
-## (OPTIONAL: CONTACT DETAILS)
+## CONTACT DETAILS
 e-mail: jcrm86@gmail.com

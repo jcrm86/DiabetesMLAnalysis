@@ -1,7 +1,5 @@
 # Diabetes Analysis 
 
-
-## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
 This project contains an analysis of surveis from more than 200k patients asking about their physical and mental conditions to determine if they have risk of develope Diabetes.
 
 ## DATA
@@ -42,6 +40,7 @@ Because this is a classification problem three models were considered.
 ## HYPERPARAMETER OPTIMISATION
 Different techiniques were studied:
 - Grid Search selection for K-nearest neighbors.
+- Grid Search CV method with different input parameters for each model to find the best model fit.
 
 
 ## CONTACT DETAILS

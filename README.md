@@ -1,23 +1,48 @@
-# PROJECT TITLE 
+# Diabetes Analysis 
 
 
 ## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
-100 words to explain what your project is about to a general audience. 
+This project contains an analysis of surveis from more than 200k patients asking about their physical and mental conditions to determine if they have risk of develope Diabetes.
 
 ## DATA
-A summary of the data you’re using, remembering to include where you got it and any relevant citations. 
+Data sources https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
+
+**For what purpose was the dataset created?**
+To better understand the relationship between  lifestyle and diabetes in the US
+
+**Who funded the creation of the dataset?**
+The CDC
+
+**What do the instances in this dataset represent?**
+Each row represents a person participating in this study.
+
+**Are there recommended data splits?**
+Cross validation or a fixed train-test split could be used.
+
+**Does the dataset contain data that might be considered sensitive in any way?**
+- Gender
+- Income
+- Education level
+
+**Was there any data preprocessing performed?**
+Bucketing of age
+
+**Additional Information**
+Dataset link: https://www.cdc.gov/brfss/annual_data/annual_2014.html
+
+**Has Missing Values?**
+No
 
 ## MODEL 
-A summary of the model you’re using and why you chose it. 
+Because this is a classification problem three models were considered.
+- K-nearest neighbors
+- Rigde regression
+- Decision trees
 
 ## HYPERPARAMETER OPTIMSATION
-Description of which hyperparameters you have and how you chose to optimise them. 
+Different techiniques were studied:
+- Grid Search selection for K-nearest neighbors.
 
-## RESULTS
-A summary of your results and what you can learn from your model 
-
-You can include images of plots using the code below:
-![Screenshot](image.png)
 
 ## (OPTIONAL: CONTACT DETAILS)
-If you are planning on making your github repo public you may wish to include some contact information such as a link to your twitter or an email address. 
+e-mail: jcrm86@gmail.com
